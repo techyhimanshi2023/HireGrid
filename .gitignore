@@ -1,0 +1,32 @@
+# Python & Backend
+backend/venv/
+backend/.venv/
+**/__pycache__/
+*.py[cod]
+*$py.class
+backend/*.db
+backend/*.sqlite
+backend/*.sqlite3
+backend/uploads/
+.env
+
+# Android & Gradle
+.gradle/
+**/build/
+android/.gradle/
+android/app/build/
+android/local.properties
+android/*.jks
+*.keystore
+captures/
+.externalNativeBuild/
+.cxx/
+
+# IDE & OS
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+*.log
