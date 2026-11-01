@@ -13,8 +13,8 @@ import java.util.concurrent.TimeUnit
 
 object RetrofitClient {
 
-    // Using 127.0.0.1 bridges directly to your PC over USB when 'adb reverse tcp:8000 tcp:8000' is active
-    var baseUrl: String = "http://127.0.0.1:8000/api/v1/"
+    // Live production cloud backend on Render
+    var baseUrl: String = "https://hiregrid-api.onrender.com/api/v1/"
         set(value) {
             field = if (value.endsWith("/")) value else "$value/"
             apiServiceInstance = null
